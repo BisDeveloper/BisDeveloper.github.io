@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Challeng</title>
+</head>
+<body>
+
+    <div class="encabezado">
+        
+        <header> <img class="img" src="imagenes/logo.jpg" alt=""></header>
+        <h1 class="titulo">Encritapdor de Texto</h1>
+            
+    </div>
+    <main class="main">
+        <section>
+            <textarea id="texto" class="text-area" placeholder="Ingrese el texto aqui" cols="30" rows="7"></textarea>
+
+            <div class="informacion">
+                <h5>Solo letras minuscula, sin acento</h5>
+            </div>
+          <div class="botones">
+            <button class="btn-encriptar" onclick="encriptar()"> Encriptar !</button>
+            <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+          </div>
+        </section>
+          <section class="textoMostrado">
+            <textarea id="textoRecibido" class="mensaje" cols="30" rows="5"></textarea>
+           <div>
+            <button class="Copiar" onclick="copiar()">Copiar</button>
+           </div>
+             
+          </section>
+    </main>
+
+    <script src="script.js"> </script>
+    
+</body>
+</html>

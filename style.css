@@ -1,0 +1,153 @@
+*{
+    background-color: #F3F5FC;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.encabezado
+{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+img
+{
+   margin-top: 4px;
+    width: 30px;
+    
+}
+.titulo
+{
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.main
+{
+    display: flex;
+    margin: auto;
+    width: 900px;
+    height: 800px;
+    padding: 50px;
+  
+    
+}
+.text-area
+{
+    border: none;
+    color: #0A3871;
+    resize:  none;
+    outline: none;
+    width: 70%;
+
+}
+
+.mensaje
+{
+    border: none;
+    border-radius: 20%;
+    color: #0A3871;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    resize:  none;
+    outline: none;
+    width: 80%;
+    background-color: rgb(255, 254, 252);
+    padding-top: 3%;
+    padding-left: 7%;
+   
+}
+
+.textoMostrado
+{
+    background-color: rgb(255, 254, 252);
+    border-radius: 20%;
+    height: 50%;
+}
+
+
+.mensaje:focus
+{
+    outline: none;
+}
+
+.informacion,h5{
+
+    font-size: medium;
+}
+
+.botones
+{
+    width: auto;
+    display: flex;
+}
+
+.btn-encriptar
+{
+    border-radius: 20px;
+    background-color: #075dc6;
+    border: none;
+    padding: 1%;
+    width: 300px;
+    margin-right: 4%;
+    
+}
+
+.btn-encriptar:hover
+{
+    background-color: #0A3871;
+    font-weight: bold;
+}
+
+.btn-desencriptar
+{
+    border-radius: 20px;
+    background-color:rgb(228, 225, 220) ;
+    border: 2px solid #0A3871;
+    cursor: pointer;
+    padding: 1%;
+    width: 300px;
+    
+}
+
+.btn-desencriptar:hover
+{
+    background-color:rgb(184, 179, 171) ;
+    font-weight: bold;
+}
+
+#titulo
+{
+    margin-left: 25%;
+}
+
+.Copiar
+{
+    border-radius: 20px;
+    border: 2px solid #0A3871;
+    margin-top: 4%;
+    margin-left: 2%;
+    background-color: rgb(242, 240, 235);
+    position: absolute;
+    cursor: pointer;
+    width: 15%;
+    height: 50px;
+}
+
+.Copiar:hover{
+    background-color:rgb(184, 179, 171) ;
+    font-weight: bold;
+
+}
+
+
+
